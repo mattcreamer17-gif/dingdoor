@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>For Dingdoor: where AI fits in the stack, and where Postgres is faster</title>
+<meta name="description" content="You shipped auto-refill credits and the AI voice agent. My read is the refund rate on ghosted leads is the thing Maykel does not want in the seed deck." />
+<link rel="icon" type="image/png" href="logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <img src="logo.png" alt="Dingdoor" class="site-header__logo" width="44" height="44" />
+    <span class="site-header__wordmark">dingdoor</span>
+    <span class="site-header__tag">Prepared for the team in Miami</span>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero__inner">
+    <span class="hero__eyebrow">Prepared for Dingdoor</span>
+    <h1>A read on where AI actually fits in Dingdoor's stack, and where Postgres will do the job faster.</h1>
+    <p class="hero__sub">You shipped auto-refill credits, phone-number masking, and an AI voice agent inside the last twelve months. The refund-guarantee copy tells us the ghosted-lead problem is real. The seed narrative leans on AI matching and automated job pricing. The team is seventeen people. We want to help you get from "AI is in the deck" to "AI is doing specific, measurable work on the refund rate, the onboarding queue, and the pricing bands," without spending the whole seed round on it.</p>
+    <div class="hero__cta-row">
+      <a class="btn btn--primary" href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">Book 30 minutes with Matt</a>
+      <a class="btn btn--ghost" href="#how-we-think">See the 60/30/10 read</a>
+    </div>
+    <p class="hero__meta"><strong>Matt Creamer</strong>, CRO at Eduba. Bring the refund-rate number and one category where pricing feels the most broken.</p>
+  </div>
+</section>
+
+<section class="section" id="how-we-think">
+  <div class="section__inner">
+    <h2>How we'd think about your stack</h2>
+    <p>Most of what looks like an AI problem is not one. We apply a specific read to your stack, write up what belongs where, and hand you a scoped build plan that a single strong contractor can deliver inside the seed window.</p>
+    <div class="split">
+      <div class="split__card">
+        <div class="split__pct">60%</div>
+        <div class="split__label">Traditional code</div>
+        <p>Provider CRUD, credit ledger, chat routing, geo-zip lookup, notification plumbing. The right call is making it boring and durable.</p>
+      </div>
+      <div class="split__card">
+        <div class="split__pct">30%</div>
+        <div class="split__label">Rule-based logic</div>
+        <p>Category-by-category pricing bands, refund eligibility rules, verification gates, matching priorities by county. Wants to live in one readable, auditable place.</p>
+      </div>
+      <div class="split__card split__card--accent">
+        <div class="split__pct">10%</div>
+        <div class="split__label">Where LLMs earn their keep</div>
+        <p>Parsing free-text requests into the right category plus urgency, flagging chats that are about to ghost, summarizing reviews into a trust score the matching rules can use.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tint">
+  <div class="section__inner">
+    <h2>Closest precedent on our side</h2>
+    <p>We did this exact shape of work with Simple Lyfe Stays, a 46-property short-term-rental operator with the same ops-heavy multi-unit problem. Scope covered operational playbook automation, organizational context architecture, and a prioritized build roadmap. Same question, different vertical: what is the 60/30/10 of this operator's real workflow, and what gets built first.</p>
+    <div class="note">
+      <h3>The method under it</h3>
+      <p>We published the Interpretable Context Methodology to ACM TiiS. It is how we structure operational knowledge (onboarding rules, pricing logic, escalation paths) so your AI can reason over it instead of hallucinating around it. Repo: <a href="https://github.com/RinDig/Interpretable-Context-Methodology-ICM-" target="_blank" rel="noopener">github.com/RinDig/Interpretable-Context-Methodology-ICM-</a>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section__inner">
+    <h2>Who's behind this</h2>
+    <p>Jake Van Clief runs Eduba. Marine veteran, eight years on cryptographic and avionics systems. MSc Future Governance from the <a href="https://www.ed.ac.uk/" target="_blank" rel="noopener">University of Edinburgh</a>. Published in ACM TiiS and arXiv. Jake also built an online community to 22,000 members in five weeks, which is the closest analog to Dingdoor's provider-growth problem we have on our resume.</p>
+    <div class="proof">
+      <div>
+        <div class="proof__num">1,500+</div>
+        <div class="proof__lab">People trained since May 2025 across Pacific Life, Colgate-Palmolive, and KPMG UK (Big Four).</div>
+      </div>
+      <div>
+        <div class="proof__num">6,000&ndash;9,000</div>
+        <div class="proof__lab">Hours saved per year at Correlation One&apos;s enterprise cohorts.</div>
+      </div>
+      <div>
+        <div class="proof__num">95%</div>
+        <div class="proof__lab">30-day adoption rate across enterprise training engagements.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section__inner">
+    <div class="cta-block">
+      <h2>30 minutes with Matt Creamer, Eduba&apos;s CRO.</h2>
+      <p>Bring the refund-rate number and one category where pricing feels the most broken. We&apos;ll walk through how we would scope the first six weeks.</p>
+      <a class="btn btn--primary" href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">Book the call</a>
+      <div class="cta-block__who">
+        <span>Prefer email? <a href="mailto:thecro@eduba.io">thecro@eduba.io</a></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  Prepared by Eduba. <a href="https://eduba.io" target="_blank" rel="noopener">eduba.io</a>
+</footer>
+
+</body>
+</html>
